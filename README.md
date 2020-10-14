@@ -1,3 +1,6 @@
+**INFORMATION:** this is a fork of react-native-pjsip with Windows support. Postinstall script was converted in node js from bash to run in more OS.
+
+
 # react-native-pjsip
 
 A [PJSIP](http://www.pjsip.org/) module for React Native.
