@@ -1,6 +1,7 @@
 .idea
 android/build
 .DS_Store
+._.DS_Store
 node_modules
 android/src/main/java/org/
 android/src/main/jniLibs/

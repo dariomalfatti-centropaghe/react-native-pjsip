@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "postinstall": "bash libs.sh",
+    "postinstall": "node libs.js",
     "lint": "eslint ./src",
     "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
   },
@@ -13,6 +13,7 @@
     "url": "https://github.com/datso/react-native-pjsip/issues"
   },
   "dependencies": {
+    "decompress": "^4.2.1",
     "events": "1.1.0"
   },
   "devDependencies": {
