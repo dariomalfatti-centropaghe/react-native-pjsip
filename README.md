@@ -101,4 +101,4 @@ endpoint.addListener("call_terminated", (newCall) => {
 4. [Settings](https://github.com/datso/react-native-pjsip/blob/master/docs/settings.md)
 
 ## Demo
-The demo project is https://github.com/datso/react-native-pjsip-app. And you will need a SIP server.
+The demo project is https://github.com/dariomalfatti-centropaghe/react-native-pjsip. And you will need a SIP server.
