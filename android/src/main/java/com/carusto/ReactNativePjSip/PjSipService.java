@@ -164,7 +164,7 @@ public class PjSipService extends Service {
             if (mServiceConfiguration.isUserAgentNotEmpty()) {
                 epConfig.getUaConfig().setUserAgent(mServiceConfiguration.getUserAgent());
             } else {
-                epConfig.getUaConfig().setUserAgent("React Native PjSip ("+ mEndpoint.libVersion().getFull() +")");
+                epConfig.getUaConfig().setUserAgent("ViaVoip PjSip ("+ mEndpoint.libVersion().getFull() +")");
             }
 
             if (mServiceConfiguration.isStunServersNotEmpty()) {
