@@ -1,5 +1,5 @@
-const VERSION = "v2.8.0";
-const URL = `https://github.com/datso/react-native-pjsip-builder/releases/download/${VERSION}/release.tar.gz`;
+const VERSION = "v2.7.1";
+const URL = `https://github.com/datso/react-native-pjsip-builder/archive/refs/tags/${VERSION}-with-vialer.tar.gz`;
 const LOCK = ".libs.lock";
 const DEST = ".libs.tar.gz";
 let DOWNLOAD = true;
